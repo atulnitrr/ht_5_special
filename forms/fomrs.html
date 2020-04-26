@@ -15,6 +15,7 @@
         id="firstname"
         name="firstname"
         placeholder="first name"
+        required="required"
       />
       <br />
       <label for="lastname">LastName</label>
@@ -23,6 +24,9 @@
         id="lastname"
         name="lastname"
         placeholder="last name"
+        required="required"
+        maxlength="5"
+        autocomplete="off"
       />
       <br />
       <label for="email">Email</label>
@@ -31,11 +35,24 @@
         id="email"
         name="email"
         placeholder="your@email.com"
+        required="required"
       />
+      <br />
       <label for="bio">Bio</label>
       <textarea name="" id="bio" cols="30" rows="10">
 Type your bio here</textarea
       >
+      <br />
+
+      <input id="singers" placeholder="my fav singers" list="mySinger" />
+      <datalist id="mySinger">
+        <option value="Arijt"></option>
+        <option value="Ankit"></option>
+        <option value="Kishor"></option>
+        <option value="Kumar"></option>
+      </datalist>
+
+      <!-- <input type="submit" value="Register" /> -->
     </form>
   </body>
 </html>
