@@ -1,0 +1,20 @@
+body {
+  font-size: 2em;
+}
+
+p {
+  color: #0000cc;
+  font-size: 0.5em;
+}
+
+span {
+  font-weight: bold;
+}
+
+.emph {
+  color: #cc0000;
+}
+
+#open {
+  border: 2px solid #0000cc;
+}
