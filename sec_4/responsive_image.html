@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      img {
+        /* width: 100%; */
+        /* for small images */
+        /* max-width: 25%;
+        height: auto; */
+      }
+    </style>
+    <title>Responseive image</title>
+  </head>
+  <body>
+    <p>Responsive image</p>
+    <!-- <img src="/images/nature.jpg" alt="" /> -->
+    <!-- <img src="/images/trees.jpg" alt="" /> -->
+    <picture>
+      <source srcset="/images/trees.jpg" media="(max-width:400px)" />
+      <source srcset="/images/nature.jpg" />
+      <img src="/images/nature.jpg" alt="" />
+    </picture>
+  </body>
+</html>
